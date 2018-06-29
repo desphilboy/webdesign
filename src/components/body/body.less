@@ -1,8 +1,20 @@
-@bodyColour: #351534;
+@bodyColour: #9ADA84;			
 
+
+@borderColour: darken(@bodyColour, 30%);
+@minWidthS: 300px;
+@minHeightS: 400px;
+@paddingS: 5px;
+@borderWidth: 2px;
 
 
 .webdesign-body {
-	background-color: @bodyColour
-
+	background-color: @bodyColour;
+	min-width: @minWidthS;
+	min-height: @minHeightS;
+	padding : @paddingS;
+	border-width: @borderWidth;
+	border-color:@borderColour;
+	border-style: solid;
+	border-radius: 2 * @borderWidth;
 }
