@@ -9,7 +9,7 @@ import Body from './components/body';
 
 ReactDOM.render(<App />, document.getElementById('app'));
 ReactDOM.render(<Header />, document.getElementById('header'));
-ReactDOM.render(<Body />, document.getElementById('body'));
+ReactDOM.render(<Body title="webdesign body"/>, document.getElementById('body'));
 ReactDOM.render(<Footer />, document.getElementById('footer'));
 
 

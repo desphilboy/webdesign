@@ -1,5 +1,5 @@
 import React, { Component } from  'react';
-import './header.less';
+
 
 
 export class Header extends Component {

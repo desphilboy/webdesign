@@ -12,10 +12,10 @@ module.exports =  {
             test: /\.(js|jsx)$/,
             exclude: /node_modules/,
             loader: 'babel-loader'
-        }, {
-            test: /\.(less|css)$/,
-            loaders: ["style-loader", "css-loader", "less-loader"]
         }]
+    },
+    resolve: {
+        extensions: ['.js', '.jsx'],
     },
     output: {
         path: __dirname + '/../dist',
@@ -35,5 +35,5 @@ module.exports =  {
                 baseDir: ['dist']
             }
         })
-    ]
+    ],
 };
